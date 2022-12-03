@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+.teams {
+    float: left;
+    overflow: hidden;
+}
+
+.hover {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding: 2rem;
+}
+
+.navbar a:hover,
+.teams:hover .hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.select {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    height: 10rem;
+    width: 9rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+}
+
+.select a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.select a:hover {
+    background-color: #ddd;
+}
+
+.teams:hover .select {
+    display: block;
+}
+
+.navbar img{
+    margin-right: 57rem;
+}
