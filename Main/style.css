@@ -72,5 +72,15 @@
 }
 
 .navbar img{
-    margin-right: 57rem;
+    margin-right: 56rem;
+}
+
+#heading{
+    text-align: center;
+    color: rgb(182, 29, 29);
+}
+
+.img-group{
+    display: flex;
+    justify-content: center;
 }
