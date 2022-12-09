@@ -75,7 +75,25 @@ hr {
 }
 
 .teams:hover .select {
-    display:inline;
+    display: inline;
+}
+
+/* @media only screen and (max-width: 768px) {
+    .info-abt-stadium {
+      font-size: 2000px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .info-abt-stadium {
+      font-size: 1000px;
+    }
+  } */
+
+@media all and (max-width: 1200px) and (min-width: 800px) {
+    .info-abt-stadium {
+        font-size: 12px;
+    }
 }
 
 span {
@@ -118,16 +136,16 @@ span {
     font-size: 1.9vw;
 }
 
-#list-stadiums li a{
+#list-stadiums li a {
     text-decoration: none;
     color: black;
 }
 
-#list-stadiums li a:hover{
+#list-stadiums li a:hover {
     text-decoration: underline;
 }
 
-.info-abt-stadium{
+.info-abt-stadium {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -135,26 +153,26 @@ span {
     text-align: justify;
 }
 
-#Al-Bayt-Stadium img{
+#Al-Bayt-Stadium img {
     width: 80%;
 }
 
-.matches{
+.matches {
     position: absolute;
     border: 0.1vw solid black;
     text-align: center;
     margin-top: auto;
-    background-color:cornsilk;
+    background-color: cornsilk;
 }
 
-#Khalifa-International-Stadium img{
+#Khalifa-International-Stadium img {
     width: 80%;
 }
 
-#Al-Thumama-Stadium img{
+#Al-Thumama-Stadium img {
     width: 80%;
 }
 
-#matches-ats{
+#matches-ats {
     margin-top: -4%;
 }
