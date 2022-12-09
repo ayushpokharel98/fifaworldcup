@@ -78,24 +78,6 @@ hr {
     display: inline;
 }
 
-/* @media only screen and (max-width: 768px) {
-    .info-abt-stadium {
-      font-size: 2000px;
-    }
-  }
-  
-  @media only screen and (max-width: 320px) {
-    .info-abt-stadium {
-      font-size: 1000px;
-    }
-  } */
-
-@media all and (max-width: 1200px) and (min-width: 800px) {
-    .info-abt-stadium {
-        font-size: 12px;
-    }
-}
-
 span {
     color: rgb(182, 29, 29);
     font-size: 3vw;
@@ -155,6 +137,7 @@ span {
 
 #Al-Bayt-Stadium img {
     width: 80%;
+    margin-top: 3%;
 }
 
 .matches {
@@ -166,13 +149,11 @@ span {
 }
 
 #Khalifa-International-Stadium img {
+    margin-top: 3%;
     width: 80%;
 }
 
 #Al-Thumama-Stadium img {
     width: 80%;
-}
-
-#matches-ats {
-    margin-top: -4%;
+    margin-top: 3%;
 }
