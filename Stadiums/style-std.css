@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* overflow-x: hidden; */
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+hr {
+    height: 0.245rem;
+    background-color: rgb(139, 21, 57);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* width: 100%;
+    position: fixed; */
+}
+
+.navbar a {
+    float: left;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+.teams {
+    float: left;
+    overflow: hidden;
+}
+
+.hover {
+    font-size: 1.5vw;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding: 2rem;
+}
+
+.navbar a:hover,
+.teams:hover .hover {
+    background-color: rgb(139, 21, 57);
+    cursor: pointer;
+}
+
+.select {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    height: 45%;
+    width: 15%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+}
+
+.select a {
+    float: none;
+    color: black;
+    padding: 1rem 2rem 1rem 0;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.select a:hover {
+    background-color: #ddd;
+}
+
+.teams:hover .select {
+    display: inline;
+}
+
+span {
+    color: rgb(182, 29, 29);
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#list-stadiums li {
+    margin-left: 3%;
+}
+
+#list-stadiums {
+    font-size: 1.9vw;
+}
+
+#list-stadiums li a {
+    text-decoration: none;
+    color: black;
+}
+
+#list-stadiums li a:hover {
+    text-decoration: underline;
+}
+
+.info-abt-stadium {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 2vw;
+    text-align: justify;
+}
+
+#Al-Bayt-Stadium img {
+    width: 80%;
+    margin-top: 3%;
+}
+
+.matches {
+    position: absolute;
+    border: 0.1vw solid black;
+    text-align: center;
+    margin-top: auto;
+    background-color: cornsilk;
+    font-size: 1.06vw;
+}
+
+#Khalifa-International-Stadium img {
+    margin-top: 3%;
+    width: 80%;
+}
+
+#Al-Thumama-Stadium img {
+    width: 80%;
+    margin-top: 3%;
+}
