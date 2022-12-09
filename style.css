@@ -78,9 +78,10 @@ hr {
     display:inline;
 }
 
-h1 {
-    text-align: center;
+span {
     color: rgb(182, 29, 29);
+    font-size: 3vw;
+    font-weight: bold;
 }
 
 .img-group {
@@ -130,20 +131,30 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    font-size: 2vw;
+    text-align: justify;
 }
 
 #Al-Bayt-Stadium img{
     width: 80%;
 }
 
-.matches-abs{
+.matches{
     position: absolute;
     border: 0.1vw solid black;
     text-align: center;
-    margin-top: 3%;
+    margin-top: auto;
     background-color:cornsilk;
 }
 
 #Khalifa-International-Stadium img{
     width: 80%;
+}
+
+#Al-Thumama-Stadium img{
+    width: 80%;
+}
+
+#matches-ats{
+    margin-top: -4%;
 }
