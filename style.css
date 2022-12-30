@@ -81,11 +81,11 @@ span {
 }
 
 .select {
-    animation: growDown 300ms ease-in-out forwards;
+    animation: dropDown 600ms ease-in-out forwards;
     transform-origin: top center;
 }
 
-@keyframes growDown {
+@keyframes dropDown {
     0% {
         transform: scaleY(0)
     }
@@ -145,5 +145,42 @@ span {
 }
 
 #richarlison-goal{
+    width: 100%;
+}
+
+
+footer{
+    background-color: rgb(84,1,102);
+    color: white;
+}
+
+.playergoals{
+    display: inline-flex;
+    overflow-x: hidden;
+}
+
+.kylian, .messi, .giroud, .alvarez{
+    cursor: pointer;
+}
+
+.kylian p, .messi p, .giroud p, .alvarez p{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.playergoals a {
+    text-decoration: none;
+    color: white;
+}
+
+.margin-change{
+    margin-left: 1%;
+}
+
+.kylian:hover, .messi:hover, .giroud:hover, .alvarez:hover p{
+    text-decoration: underline;
+}
+
+.kylian img, .messi img, .giroud img, .alvarez img{
     width: 100%;
 }
