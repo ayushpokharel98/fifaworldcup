@@ -116,7 +116,7 @@ span {
 #groups{
     position: absolute;
     width: 25%;
-    height: 83%;
+    margin-top: 5%;
 }
 
 #trophy {
@@ -125,14 +125,13 @@ span {
 
 #great-players {
     position: absolute;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 75%;
     width: 24%;
 }
 
 #trophy-winners{
     width: 100%;
-    height: 34%;
 }
 
 #this-wc{
