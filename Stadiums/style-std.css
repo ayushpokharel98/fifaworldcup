@@ -82,7 +82,7 @@ span {
 }
 
 .select {
-    animation: growDown 300ms ease-in-out forwards;
+    animation: growDown 600ms ease-in-out forwards;
     transform-origin: top center;
 }
 
@@ -139,12 +139,17 @@ span {
     font-size: 1.06vw;
 }
 
-#Khalifa-International-Stadium img {
+#Khalifa-International-Stadium img,
+#Al-Thumama-Stadium img,
+#Ahmad-Bin-Ali-Stadium img,
+#Lusail-Stadium img,
+#Stadium-974 img,
+#Education-City-Stadium img,
+#Al-Janoub-Stadium img {
     margin-top: 3%;
     width: 80%;
 }
 
-#Al-Thumama-Stadium img {
-    width: 80%;
-    margin-top: 3%;
+#matches-abas {
+    margin-top: 7%;
 }

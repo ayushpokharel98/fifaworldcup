@@ -136,12 +136,16 @@ span {
 
 #this-wc{
     font-size: 2vw;
-    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 #ind-awards{
     font-size: 2vw;
-    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 #richarlison-goal{
